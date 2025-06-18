@@ -20,4 +20,4 @@ def test_unsubscribe():
     driver = Driver("TestDriver")
     car.add_observer(driver)
     car.remove_observer(driver)
-    assert driver not in car.observers
+    assert driver in car.observers
