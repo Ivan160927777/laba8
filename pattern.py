@@ -44,7 +44,7 @@ if __name__ == "__main__":
     driver2=Driver("Елена")
     #car.add_observer(driver1)
     car.add_observer(driver2)
-    on=""
-    while not on:
+    stop=False
+    while not stop:
         car.drive()
         on=input()
